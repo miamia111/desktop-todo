@@ -1,4 +1,4 @@
-# Desktop Todo
+Desktop Todo
 
 Desktop Todo 是一款面向 Windows 的桌面待办工具，提供待办管理、状态与优先级分类、截止日期、批量导入与导出等功能。
 
@@ -146,6 +146,12 @@ Desktop Todo 是一款面向 Windows 的桌面待办工具，提供待办管理�
 
 更完整的规则见 [TODO_IMPORT_RULES.md](TODO_IMPORT_RULES.md)。
 
+## 制作自定义皮肤
+
+Desktop Todo 支持无需修改源码或重新打包的本地扩展皮肤。皮肤可自定义窗口、待办、时钟、闹钟、日历、设置界面和日历贴纸，并可在设置中重新加载。
+
+完整的目录结构、`theme.json`、CSS 作用域、贴纸资源、响应式规则和验收清单见 [皮肤制作规范.md](皮肤制作规范.md)。
+
 ## 使用桌面 Agent 自然语言添加待办
 
 Desktop Todo 可以配合 Codex 等能够读取本地规则文件、生成表格或调用本地命令的桌面 Agent 使用。你可以直接用自然语言描述任务，例如：
@@ -184,3 +190,4 @@ Desktop Todo 可以配合 Codex 等能够读取本地规则文件、生成表格
 ## 许可证
 
 本项目使用 MIT License。
+
